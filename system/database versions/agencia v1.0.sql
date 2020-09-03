@@ -76,7 +76,6 @@ CREATE  TABLE IF NOT EXISTS `agencia`.`vehiculo` (
   `id_agencia` INT NOT NULL ,
   `modelo` VARCHAR(45) NULL ,
   `transmision` VARCHAR(45) NULL ,
-  `` VARCHAR(45) NULL ,
   PRIMARY KEY (`idvehiculo`) ,
   INDEX `fk_vehiculo_marca_vehiculo1_idx` (`id_marca` ASC) ,
   INDEX `fk_vehiculo_agencia1_idx` (`id_agencia` ASC) ,
